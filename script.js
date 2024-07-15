@@ -5,11 +5,11 @@ function convertTemperature() {
 
     if (isNaN(degrees)) {
         result = "Invalid input";
-    } else if (type === "Fahrenheit") {
-        result = (degrees - 32) * 5 / 9;
+    } else if (type ==="Fahrenheit") {
+        result = (degrees-32) * 5 / 9;
         result = `${result.toFixed(4)} °C`;
     } else {
-        result = (degrees * 9 / 5) + 32;
+        result = (degrees*9 / 5) + 32;
         result = `${result.toFixed(4)} °F`;
     }
 
